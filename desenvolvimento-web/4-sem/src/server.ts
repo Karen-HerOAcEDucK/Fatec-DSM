@@ -12,7 +12,7 @@ export class SetupServer extends Server {
     
     public init(): void {
         this.setupExpress()
-        this.setupController()
+        this.setupController() 
     }
 
     private setupExpress(): void {
