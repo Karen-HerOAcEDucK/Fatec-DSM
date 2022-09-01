@@ -6,4 +6,6 @@ beforeAll(()=>{
     server.init();
 
     global.testRequest = supertest(server.getApp())
+    console.log('foi');
+    
 });
